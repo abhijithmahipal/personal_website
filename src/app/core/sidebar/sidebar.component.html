@@ -1,1 +1,29 @@
-<p>sidebar works!</p>
+<div
+  class="absolute bg-theme z-40 left-0 top-0 h-screen overflow-y-scroll w-72"
+>
+  <div>
+    <ul class="px-2 py-4">
+      <li>
+        <a [routerLink]="['/']" routerLinkActive="activeRoute">
+          <span class="iconD">Home</span></a
+        >
+      </li>
+      <li>
+        <a [routerLink]="['/skill']" routerLinkActive="activeRoute">
+          <span class="iconD">Skills</span></a
+        >
+      </li>
+      <li>
+        <a [routerLink]="['/portfolio']" routerLinkActive="activeRoute">
+          <span class="iconD">Portfolio</span></a
+        >
+      </li>
+
+      <li>
+        <a [routerLink]="['/aboutme']" routerLinkActive="activeRoute">
+          <span class="iconD">About Me</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
